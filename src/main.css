@@ -1,0 +1,51 @@
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.2em;
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: linear-gradient(to right, hsla(300,100%,50%,1.0),hsla(200,100%,50%,1.0));
+  min-height: 100vh;
+}
+
+.nav-image{
+  width: 100px;
+  border: 2px solid green;
+}
+
+/*nav bar menu and logo*/
+.nav-items{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid green;
+}
+
+/*nav bar menu*/
+.menu-items{
+  display: flex;
+  list-style: none;
+  border: 2px solid green;
+}
+.menu-items > li{
+  padding: 10px;
+  font-size: 0.6em;
+  border: 2px solid green;
+}
+.main-content{
+  font-size: 0.7em;
+  border: 2px solid green;
+  /* display: none; */
+}
+footer{
+  text-align: center;
+  font-size: 0.5em;
+  font-weight: none;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  border: 2px solid green;
+}
